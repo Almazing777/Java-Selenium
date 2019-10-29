@@ -6,6 +6,7 @@
 //        Create a method which will check if given string is palindrome. If it is it should print "This string is palindrome" if not print "This string is not palindrome"
 //        Upload it to gitlab and share a link in gitlab with your exercise
 
+package sprintTwo;
 import java.util.*;
 
 public class LevelThree{

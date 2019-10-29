@@ -1,8 +1,10 @@
+package sprintTwo;
 //1.Create a loop that will print numbers from 1 to 10, except number 7
 //2.Create An Array of integers from 1 to 5, Call an integer on array using index and print it.
 //3.Call index outside of the bound. Handle this exception printing “Outside of bound message.”
 
 import java.util.*;
+
 
 public class LevelOne {
     public static void main(String[] args){
