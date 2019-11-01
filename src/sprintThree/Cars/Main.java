@@ -6,22 +6,22 @@ package sprintThree.Cars;
 
 class CarExample extends Car{
     public static void main(String[] args){
-        Model one = new Model();
+        Car one = new Car();
         one.setCountry("USA");
         one.setMaker("Ford");
         one.setModel("Mustang");
-        one.getAll();
+        System.out.println("Ford: " + one.getCountry() + " " + one.getModel() + " " + one.getMaker());
 
-        Model two = new Model();
+        Car two = new Car();
         two.setCountry("Germany");
         two.setMaker("BMW");
         two.setModel("325xi");
-        two.getAll();
+        System.out.println("BMW: " + two.getCountry() + " " + two.getModel() + " " + two.getMaker());
 
-        Model three = new Model();
+        Car three = new Car();
         three.setCountry("UK");
         three.setMaker("Jaguar");
         three.setModel("F-PACE");
-        three.getAll();
+        System.out.println("Jaguar: " + three.getCountry() + " " + three.getModel() + " " + three.getMaker());
     }
 }
