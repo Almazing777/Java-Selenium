@@ -24,7 +24,7 @@ public class LevelOne {
 
         try{
             int[] nums2 = {1,2,3,4,5,6,7,8,9};
-            System.out.println(nums2[20]);
+            System.out.println(nums2[10]);
         }
         catch(Exception e) {
             System.out.println("Error: outside of bound");
