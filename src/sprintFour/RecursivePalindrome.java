@@ -13,7 +13,7 @@ class RecursivePalindrome {
 
     public static void main(String[] args){
         String str = "was it a Cat I sAW";
-        str = str.replaceAll("[^a-zA-Z]", "").toLowerCase();
+        str = str.replaceAll("[^a-zA-Z]+", "").toLowerCase();
         if(isPalindrome(str)) System.out.println("yes");
         else System.out.println("no");
     }
